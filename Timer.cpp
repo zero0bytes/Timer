@@ -60,8 +60,8 @@ void Timer::update()
 		unsigned long now = millis();
 		if (now - this->lastEventTime >= this->period)
 		{
-			 printf("Period: %ld millis\n", this->period);  // uncomment for test!!
-			 printf("Time: %ld millis\n", now - this->lastEventTime); // uncomment for test!!
+			 //printf("Period: %ld millis\n", this->period);  // uncomment for test!!
+			 //printf("Time: %ld millis\n", now - this->lastEventTime); // uncomment for test!!
 			(*callback)();
 			this->lastEventTime = now;
 		}
