@@ -1,2 +1,4 @@
 # Timer
-Timer c++ class for Raspberry Pi: I'll have finished very soon
+Simple Timer c++ class for Raspberry Pi
+for execution function every specified time in milliseconds
+compile using cmake
